@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventform</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <script src="/js/script.js"></script>
+  <h1>EVENT 1</h1>
+  <h2>Number of available seats : 23</h2>
+  <div class="grid-container">
+    <div class="item1"><img src="https://media.istockphoto.com/id/499517325/photo/a-man-speaking-at-a-business-conference.jpg?s=612x612&w=0&k=20&c=gWTTDs_Hl6AEGOunoQ2LsjrcTJkknf9G8BGqsywyEtE=" alt="a-man-speaking-at-a-business-conference"></div>
+  <div class="item2">
+    <form id="myform">
+    <div>
+      <label for="name">Name : </label>
+      <input type="text" id="name">
+    </div>
+    <div>
+      <label for="email">E-mail : </label>
+      <input type="email" id="email">
+    </div>
+    <div>
+      <label for="phone">Phone-no : </label>
+      <input type="tel" id="phone">
+    </div>
+    <div>
+      <label for="num-seats">Number of Seats : </label>
+      <input type="number" id="num-seats" min="1" max="23">
+    </div>
+    <div>
+      <label for="num-att">Number of Attendee : </label>
+      <input type="number" id="num-att" min="1" max="23">
+    </div>
+    <div class="button">
+      <button type="submit" style="font-size: 15px; background-color: blueviolet;">Submit</button>
+      <button type="reset" style="font-size: 15px; background-color: blueviolet;">Cancel</button>
+    </div>
+  </form>
+  </div>
+  </div>
+</body>
+</html>
